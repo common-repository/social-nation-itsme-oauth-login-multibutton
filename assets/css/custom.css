@@ -1,0 +1,456 @@
+/* CSS CUSTOM PER PROCEDURE INTERNE DI PROGRAMMAZIONE ANGULARJS */
+/* BONCI SAMUELE e MARCO */
+
+.arrowgo:hover {
+    cursor: pointer;
+    color: #555;
+}
+
+.btnback{
+  cursor:pointer;
+}
+
+.hidden{
+   display: none !important;
+}
+
+.hidden50{
+  opacity: 0.5 !important;
+}
+
+.noclick {
+   pointer-events: none !important;
+}
+.noclick div{
+   opacity: 0.7 !important;
+}
+
+.nobusiness {
+  display: none!important;
+}
+
+.noconsumer {
+  display: none!important;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f0f0f0 !important;
+    color: #aaa !important;
+}
+
+/* POSIZIONE DELLE COLONNE DEL MENU PRINCIPALE */
+
+.off {
+    left: -320px !important;
+    opacity: .0;
+   filter: alpha(opacity=0);
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   -o-transition:.2s;
+   -ms-transition:.2s;
+   -moz-transition:.2s;
+   -webkit-transition:.2s;
+  -transition:.2s;
+}
+
+.offcol {
+    /*left: -300px !important;*/
+    /*left: -300px;*/
+   -o-transition:.2s;
+   -ms-transition:.2s;
+   -moz-transition:.2s;
+   -webkit-transition:.2s;
+  -transition:.2s;
+}
+
+/*Gestisce solo animazione ingresso uscita di second_col**/
+.on {
+  /*left: 320px !important;*/
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  transition-delay: .0s;
+  -webkit-transition-delay: .0s;
+  -o-transition-delay: .0s;
+  -moz-transition-delay: .0s;
+}
+
+/**@People:classe utilizzata solo su mobile*/
+.oncol {
+  left: 0px !important;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  transition-delay: .0s;
+  -webkit-transition-delay: .0s;
+  -o-transition-delay: .0s;
+  -moz-transition-delay: .0s;
+}
+
+/**@People:classe utilizzata solo su mobile*/
+.onr {
+  left: 0px !important;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  transition-delay: .0s;
+  -webkit-transition-delay: .0s;
+  -o-transition-delay: .0s;
+  -moz-transition-delay: .0s;
+}
+
+.pos_id_status{
+  position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.pos_subscription{
+  position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.pos_devices{
+  position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.pos_add_company{
+  position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.pos_societa{
+  position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.pos_gift{
+    position: relative !important;
+    left: 320px !important;
+    top: 0 !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+
+/*********** DIRECTIVE MIE ***************/
+.HightOn {
+  background-color: #fffff9 !important;
+  color: #666 !important;
+}
+
+.HightOnCar {
+  background-color: #fdfdfd !important;
+  color: #666 !important;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.angolino {
+  border-radius: 0px 6px 0 0 !important;
+  -moz-border-radius: 0px 6px 0 0 !important;
+  -webkit-border-radius: 0px 6px 0 0 !important;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.fix-to-top {
+    position: absolute;
+    top: 0;
+}
+
+
+.fix-to-topc {
+    position: fixed;
+    top: 7;
+    left: 479px;
+}
+
+
+/*
+.enabled {
+   pointer-events: auto;
+}
+
+.disabled {
+   pointer-events: none;
+}
+*/
+
+.fade {
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.fade.ng-enter,
+.fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.fade.ng-enter {
+    opacity: 0;
+}
+.fade.ng-enter-active {
+    opacity: 1;
+}
+.fade.ng-leave {
+    opacity: 1;
+}
+.fade.ng-leave-active {
+    opacity: 0;
+}
+
+.schermointero{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+
+
+.BtnON .btncol_b, .BtnON .btncol_w {
+
+   pointer-events: none !important;
+   background-color: #93814a;
+   color: #fff;
+   cursor: pointer;
+   cursor: hand;
+   -o-transition:.3s;
+   -ms-transition:.3s;
+   -moz-transition:.3s;
+   -webkit-transition:.3s;
+   transition:.3s;
+}
+
+.BtnON .btncol_w > .arrow, .BtnON .btncol_w > .circle, .BtnON .btncol_w > txtbtn {
+   color: #fff;
+}
+
+.BtnON .btncol_b > .arrow, .BtnON .btncol_b > .circle, .BtnON .btncol_b > txtbtn_c, .BtnON .btncol_b > txtbtn_d, .BtnON .btncol_b > .icnstw  {
+   color: #fff;
+}
+
+.BtnON .btncol_w > .circle {
+   background-color: #fff;
+   color: #666;
+}
+
+
+
+.btnOnDentro .btncol_b, .btnOnDentro .btncol_w {
+
+   pointer-events: none !important;
+   background-color: #93814a;
+   color: #fff;
+   cursor: pointer;
+   cursor: hand;
+}
+
+.btnOnDentro .btncol_w > .arrow, .btnOnDentro .btncol_w > .circle, .btnOnDentro .btncol_w > txtbtn {
+   color: #fff;
+}
+
+.btnOnDentro .btncol_w > .circle {
+   background-color: #fff;
+   color: #666;
+}
+
+.AllOFF {
+  pointer-events: none !important;
+}
+
+.traspon {
+  opacity: 1;
+ filter: alpha(opacity=100);
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ pointer-events: auto;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.traspoff {
+  opacity: .4;
+  filter: alpha(opacity=40);
+ -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+ pointer-events: none;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.clicker {
+  width: 190px;
+  height: 55px;
+  margin-left: 65px;
+  position: absolute;
+  border-radius: 10px;
+  top: -14px;
+  background-color: #fafafa;
+}
+
+.clicker:hover {
+ background-color: #f1f1f1;
+ -o-transition:.3s;
+ -ms-transition:.3s;
+ -moz-transition:.3s;
+ -webkit-transition:.3s;
+ transition:.3s;
+}
+
+.clsBtn {
+  position: fixed;
+  width:30px;
+  left:0;
+  top:0;
+  height: 100%;
+  background-color: transparent;
+  pointer-events: none;
+  z-index: 60;
+}
+
+.clsBtnOn {
+  pointer-events: auto;
+}
+
+txtar {
+  font-family: 'ITsMe-Normal';
+  margin-left: -2px !important;
+  color: #969798;
+
+}
+
+.notestointro {
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+  opacity: .0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+.srOff {
+    content: "\003C";
+}
+
+.srOn {
+    content: "\003D";
+}
+
+
+/* VERSIONE 1.01 */
+.checkFlag {
+   margin-left: 45px;
+   text-align: left;
+
+} 
+
+
+.checkflagtext {
+   margin-left:4px;
+   font-size: 14px;
+   color:#717171;
+}
+
+.checkTxtTit {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #1fb2ab;
+}
+
+
+.minibtnre {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    color: #fff;
+    width: auto;
+    padding: 0 10px 0 10px;
+    height: 31px;
+    background-color: #e4e4e4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 31px;
+    white-space: nowrap;
+    border-radius: 0 0 6px 0px;
+    -moz-border-radius: 0 0 6px 0px;
+   -webkit-border-radius: 0 0 6px 0px;
+   font-weight:600;
+   z-index:300000;
+        -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+     cursor: pointer;
+
+}
+
+.minibtnre:hover {
+       cursor: hand;
+
+    background-color: #888888;
+     -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+/*
+.switch.disabled {
+    cursor: auto!important;
+}
+*/
+
+
+.option_row .checkbox.disabled {
+	opacity: .50;
+    cursor: not-allowed;
+}
+
+/*override angula style**/
+.switch.checked {
+    background: #25c9bc!important;
+    border-color: #25c9bc!important;
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'ITsMe-Normal';
+  src: url('../fonts/ITsMe-Normal.eot?#iefix') format('embedded-opentype'),  url('../fonts/ITsMe-Normal.woff') format('woff'), url('../fonts/ITsMe-Normal.ttf')  format('truetype'), url('../fonts/ITsMe-Normal.svg#ITsMe-Normal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'social_nationregular';
+    src: url('../fonts/socianatbla-webfont.eot');
+    src: url('../fonts/socianatbla-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/socianatbla-webfont.woff') format('woff'),  url('../fonts/socianatbla-webfont.ttf') format('truetype'),  url('../fonts/socianatbla-webfont.svg#social_nationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.socialNationItsmeLoginItsmeLogo{
+    font-family: 'Itsme-Normal';
+    font-size: 50px;
+    line-height: 40px;
+    /* margin-right: 40px; */
+    vertical-align: middle;
+}
+
+.socialNationItsmeLoginItsmeLogoSmall{
+  font-family: 'Itsme-Normal';
+  font-size: 30px;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.socialNationItsmeLoginCodeBox{
+    font-family: Consolas, Monaco, monospace;
+    background-color:#eee;
+    padding:10px;
+    color:grey; 
+}
+
+.socialNationItsmeLoginCodeBoxError{
+    /*font-family: Consolas, Monaco, monospace;*/
+    background-color:#fbb;
+    padding:10px;
+    /*color:grey; */
+}
+
+.socialNationItsmeLoginReportBox{
+    width: 100%;
+    min-height: 200px;
+    font-family: Consolas, Monaco, monospace;
+    margin-bottom: 5px;
+    display: none;
+}
+
+#socialNationItsmeLoginReportLogCheckbox{
+  display:none;
+}
+
+#socialNationItsmeLoginReportLogCheckbox:checked + .socialNationItsmeLoginReportShowHideLogWrapper > .socialNationItsmeLoginReportBox{
+  display:inline-block;
+}
+#socialNationItsmeLoginReportLogCheckbox:checked + .socialNationItsmeLoginReportShowHideLogWrapper > .socialNationItsmeLoginReportHideLog{
+  display:inline-block;
+}
+#socialNationItsmeLoginReportLogCheckbox:checked + .socialNationItsmeLoginReportShowHideLogWrapper > .socialNationItsmeLoginReportShowLog{
+  display:none;
+}
+.socialNationItsmeLoginReportShowHideLog{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.socialNationItsmeLoginReportHideLog{
+  display: none;  
+}
+.socialNationItsmeLoginReportShowHideLogWrapper .dashicons-warning{
+  color: orange;
+}
+
+.socialNationItsmeLoginReportLogWarning{
+  color: orange;
+  display: none;
+  margin-left: 10px;
+}
+.socialNationItsmeLoginReportLogWarning div{
+  display:inline-block;
+}
+.socialNationItsmeLoginReportLogSuccess{
+  color: green;
+  display: none;
+  margin-left: 10px;
+}
+.socialNationItsmeLoginReportLogSuccess div{
+  display:inline-block;
+}

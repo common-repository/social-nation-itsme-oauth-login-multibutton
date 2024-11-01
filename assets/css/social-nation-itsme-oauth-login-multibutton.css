@@ -1,0 +1,20 @@
+a.sn_im_oauth_lm_login_button{
+    cursor: pointer;
+    transition: opacity 0.35s;
+}
+a.sn_im_oauth_lm_login_button:hover {
+    opacity: 0.65;
+}
+a.sn_im_oauth_lm_login_button:focus {
+    outline: none;
+}
+img.sn_im_oauth_lm_login_button{
+    /*width:200px;*/
+    max-height:40px;
+    max-width:500px;
+    vertical-align: middle;
+}
+img.sn_im_oauth_lm_login_button_icon{
+    width:40px;
+    vertical-align: middle;
+}
